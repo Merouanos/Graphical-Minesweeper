@@ -1,4 +1,4 @@
-Finished the game in 3 days (in my free time that takes 2 hours) it's needs alot of improvements but it's a good first try.
+Finished the game in 3 days (did it in my free time which is approximately 2 hours) ,it needs a lot of improvements but it's a good first try.
 
 things to add:
 -responsivity design for each platform.
