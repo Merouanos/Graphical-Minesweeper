@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minesweeper</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="Assets/boxicons-2.1.4/css/boxicons.min.css">
+</head>
+<body>
+  <div id="scores" class="w-1/2 mx-auto border ">
+  <form action="" class="flex justify-evenly mt-5">
+    <div>
+    <label for="dif">Please enter diffucilty:</label>
+    <select name="dif" id="size" class="p-2">
+      <option value="0">Easy</option>
+      <option value="1">Medium</option>
+      <option value="2">Hard</option>
+    </select>
+  </div>
+    <input type="submit" value="Start game" class="p-2  hover:bg-green-700 hover:cursor-pointer bg-green-500 rounded-lg">
+    
+
+
+
+  </form>
+
+  <div id="grid" class="grid  w-full bg-slate-500 mt-5 relative" style="min-height: 40rem;  grid-template-columns: repeat(8,1fr);grid-template-rows:repeat(8,1fr) ;">
+    <h1 id="over" class="hidden"></h1>
+  </div>
+ 
+
+    
+
+</div>
+
+</body>
+</html>
+
+<script src="main_script.js"></script>
